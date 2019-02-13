@@ -1,0 +1,3 @@
+2019-02-10 17:41:45,051  INFO [main] BeforeAfterTest:25 - chrome Browser is up and Running
+2019-02-10 17:41:47,550  INFO [main] BeforeAfterTest:29 - launching the URL
+2019-02-10 17:41:49,675  INFO [main] BeforeAfterTest:35 - chrome Browser is closed successfully
