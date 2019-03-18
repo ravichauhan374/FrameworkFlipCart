@@ -14,7 +14,7 @@ import org.apache.log4j.Logger;
 public class ConfigFileReader {
 	 
 	 private Properties properties;
-	 private final String propertyFilePath= "C:\\Users\\XAVIER\\Documents\\deepika\\workspace\\framework\\src\\main\\java\\config\\Configuation.properties";
+	 private final String propertyFilePath= "C:\\Users\\XAVIER\\git\\framework\\src\\main\\java\\config\\Configuation.properties";
 	 Logger log = Logger.getLogger(ConfigFileReader.class);
 	 
 	 public ConfigFileReader(){
@@ -34,8 +34,18 @@ public class ConfigFileReader {
 	 } 
 	 }
 	 
-	 public String getDriverPath(){
-	 String driverPath = properties.getProperty("driverPath");
+	 public String getDriverPath(String browser){
+	 String driverPath=null;
+	 switch(browser){
+	 case "chrome": driverPath = properties.getProperty("chrome");
+	 				break;
+	 				
+	 case "fireFox": driverPath = properties.getProperty("fireFox");
+					break;
+					
+	 case "internetExplorer": driverPath = properties.getProperty("internetExplorer");
+					break;
+	 }
 	 if(driverPath!= null) {
 		 return driverPath;
 	 }
