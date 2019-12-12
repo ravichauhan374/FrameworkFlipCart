@@ -5,7 +5,8 @@
     <classes>
       <class name="test.Login">
         <methods>
-          <include name="login1"/>
+          <include name="testLogin"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- test.Login -->
     </classes>
