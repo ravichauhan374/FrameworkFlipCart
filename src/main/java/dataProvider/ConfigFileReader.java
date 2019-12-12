@@ -14,7 +14,7 @@ import org.apache.log4j.Logger;
 public class ConfigFileReader {
 	 
 	 private Properties properties;
-	 private final String propertyFilePath= "C:\\Users\\XAVIER\\git\\framework\\src\\main\\java\\config\\Configuation.properties";
+	 private final String propertyFilePath= "/framework/src/main/resources/config/Configuation.properties";
 	 Logger log = Logger.getLogger(ConfigFileReader.class);
 	 
 	 public ConfigFileReader(){

@@ -86,7 +86,7 @@
            <version>2.20</version>
            <configuration>
            <suiteXmlFiles>
-           <suiteXmlFile>sanity.xml</suiteXmlFile>
+           <suiteXmlFile>testng.xml</suiteXmlFile>
            <!-- <suiteXmlFile>src\test\java\testngXML\sanity.xml</suiteXmlFile> -->
            </suiteXmlFiles>
            </configuration>

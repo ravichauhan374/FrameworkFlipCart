@@ -1,1 +1,1 @@
-2019-03-19 02:52:54,597 ERROR [main] Login:19 - driver not initilase: The driver executable does not exist: C:\Users\XAVIER\git\framework\null
+2019-12-13 01:44:55,674 ERROR [main] TestBase:24 - driver not initilase: Configuration.properties not found at /framework/src/main/resources/config/Configuation.properties
